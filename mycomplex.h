@@ -7,8 +7,8 @@ using namespace std;
 class Complex
 
 {
-      	double Re;
-	    double Im;
+    double Re;
+    double Im;
 public:
 
       Complex (double aRe = 0, double aIm = 0);
@@ -28,7 +28,7 @@ friend ostream & operator << (ostream &, Complex &);
 
 friend Complex operator + (const double &, const Complex &);
        Complex operator - (const double &);
-friend Complex operator - (const 	double &, const Complex &);
+friend Complex operator - (const double &, const Complex &);
        Complex operator * (const Complex &);
        Complex operator * (const double &);
 friend Complex operator * (const double &, const Complex &);
