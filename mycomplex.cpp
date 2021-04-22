@@ -80,7 +80,7 @@ Complex Complex :: operator * (const double & aRval)
  	Complex Result;
   	Result.Re = Re * aRval;
    	Result.Im = Im * aRval;
-    return Result;
+        return Result;
 }
 
 Complex Complex :: operator / (const double & aRval)
