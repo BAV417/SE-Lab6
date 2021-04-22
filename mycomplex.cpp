@@ -136,7 +136,7 @@ Complex & Complex :: operator /= (const double & aRval)
 {
 	Re /= aRval;
 	Im /= aRval;
-    return * this;
+        return * this;
 }
 
 Complex & Complex :: operator = (const Complex & aRval)
