@@ -55,8 +55,8 @@ Complex Complex :: operator - (const Complex & aRval)
 Complex Complex :: operator + (const double & aval)
 {
 	Complex Result;
-	result.Re = Re + aval;
-	result.Im = Im;
+	Result.Re = Re + aval;
+	Result.Im = Im;
 	return Result;
 }
 
